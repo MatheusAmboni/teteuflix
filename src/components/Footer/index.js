@@ -14,6 +14,16 @@ function Footer() {
           Imersão React da Alura
         </a>
       </p>
+      <p>
+        Contato: <br></br>
+        <a href="http://linkedin.com/in/matheus-amboni">LinkedIn</a>
+        &nbsp;
+        &nbsp;
+        <a href="https://twitter.com/matheus_amboni" >Twitter</a>
+        <br/>
+        <br/>
+        Email: mateussamboni@gmail
+      </p>
     </FooterBase>
   );
 }
