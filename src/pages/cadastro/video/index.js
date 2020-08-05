@@ -23,6 +23,15 @@ function CadastroVideo() {
       <form onSubmit={(event) => {
         event.preventDefault();
 
+        videosRepository.create({
+          titulo: values.titulo,
+          url: values.url,
+          categoriaId: 1,
+        })
+          .then(() => {
+            console.log('Cadastrou com sucesso!')
+            history.push('/');
+          });
       }}
       >
         <FormField
