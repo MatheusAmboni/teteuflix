@@ -48,7 +48,7 @@ const Input = styled.input`
   margin-bottom: 45px;
   
   resize: none;
-  border-radius: 4px;
+  border-radius: 5px;
   transition: border-color .3s;
   
   &:focus {
