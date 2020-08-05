@@ -27,7 +27,7 @@ function CadastroCategoria() {
         setCategorias([
           ...resposta,
         ]);
-      }, 3 * 1000);
+      });
   }, []);
 
   return (

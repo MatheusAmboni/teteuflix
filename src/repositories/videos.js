@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import config from '../config';
 
 const URL_VIDEOS = `${config.URL_BACKEND_TOP}/videos`;
