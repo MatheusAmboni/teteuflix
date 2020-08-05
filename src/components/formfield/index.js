@@ -63,7 +63,7 @@ const Input = styled.input`
       &:not([type="color"]) + span {
         transform: scale(.6) translateY(-10px);
       }
-    `}
+  `}
 `;
 
 function FormField({

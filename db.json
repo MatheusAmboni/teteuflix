@@ -1,17 +1,270 @@
 {
     "categorias": [
-        {
-            "id": "1",
-            "nome": "Front End", 
-            "descricao": "Uma Categoria qualquer",
-            "cor": "#6bd1ff"
-        },
-        {
-            "id": "2",
-            "nome": "Back End", 
-            "descricao": "Uma Categoria qualquer",
-            "cor": "#6bd1ff"
+      {
+        "id": "1",
+        "titulo": "Música",
+        "cor": "#6BD1FF",
+        "link_extra": {
+          "text": "Minhas musicas favoritas",
+          "url": "https://www.deezer.com/en/profile/1746377366/loved"
         }
-
+      },
+      {
+        "id": "2",
+        "titulo": "Músicas da Galera",
+        "cor": "#00C86F",
+        "link_extra": {
+          "text": "Musicas recomendadas pelos meus amigos",
+          "url": "https://en.wikipedia.org/wiki/Nicolas_Cage"
+        }
+      },
+      {
+        "id": "3",
+        "titulo": "Séries",
+        "cor": "#9cd33b"
+      },
+      {
+        "id": "4",
+        "titulo": "Filmes",
+        "cor": "orange"
+      },
+      {
+        "id": "5",
+        "titulo": "Games",
+        "cor": "red"
+      },
+      {
+        "id": "6",
+        "titulo": "Aprendendo a aprender tecnologia",
+        "cor": "#6b5be2",
+        "link_extra": {
+          "text": "Curso sobre aprendizado na Alura",
+          "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        }
+      }
+    ],
+    "videos": [
+      {
+        "id": "1",
+        "categoriaId": "1",
+        "titulo": "BLADE RUNNER 2049",
+        "url": "https://www.youtube.com/watch?v=gCcx85zbxz4"
+      },
+      {
+        "id": "2",
+        "categoriaId": "1",
+        "titulo": "Bring Me The Horizon - Can You Feel My Heart",
+        "url": "https://www.youtube.com/watch?v=6AVRCQBc59w"
+      },
+      {
+        "id": "3",
+        "categoriaId": "1",
+        "titulo": "Bring Me The Horizon - nihilist blues (Lyric Video) ft. Grimes",
+        "url": "https://www.youtube.com/watch?v=iwzfR7-33Wc"
+      },
+      {
+        "id": "4",
+        "categoriaId": "1",
+        "titulo": "My Chemical Romance - Na Na Na [Official Music Video]",
+        "url": "https://www.youtube.com/watch?v=egG7fiE89IU"
+      },
+      {
+        "id": "5",
+        "categoriaId": "1",
+        "titulo": "Skrillex - Summit (feat. Ellie Goulding) [Video by Pilerats]",
+        "url": "https://www.youtube.com/watch?v=-e_3Cg9GZFU"
+      },
+      {
+        "id": "6",
+        "categoriaId": "1",
+        "titulo": "Joji - Gimme Love (Official Video)",
+        "url": "https://www.youtube.com/watch?v=jPan651rVMs"
+      },
+      {
+        "id": "7",
+        "categoriaId": "1",
+        "titulo": "Franz Ferdinand - Ulysses (Official Video)",
+        "url": "https://www.youtube.com/watch?v=31sZ9xZr_Ew&list=LLNdqU_6_zlISdO26hdfywKw&index=39&t=0s"
+      },
+      {
+        "id": "8",
+        "categoriaId": "1",
+        "titulo": "Arctic Monkeys - R U Mine? (Official Video)",
+        "url": "https://www.youtube.com/watch?v=VQH8ZTgna3Q"
+      },       
+      {
+        "id": "9",
+        "categoriaId": "2",
+        "titulo": "Obg Kemilli linda ",
+        "url": "https://www.youtube.com/watch?v=HyHNuVaZJ-k"
+      },
+      {
+        "id": "10",
+        "categoriaId": "2",
+        "titulo": "A pedido da Kemilli, botei esse também",
+        "url": "https://www.youtube.com/watch?v=WQyKuEsLpRY"
+      },
+      {
+        "id": "11",
+        "categoriaId": "2",
+        "titulo": "João pediu chorando se foi mas botei versão metal mas e massa",
+        "url": "https://www.youtube.com/watch?v=GzzfyYGoTu0&pbjreload=101"
+      },
+      {
+        "id": "12",
+        "categoriaId": "2",
+        "titulo": "Gustavo que pediu, essa é conceitual",
+        "url": "https://www.youtube.com/watch?v=gZDK-ND-nZA"
+      }, 
+      {
+        "id": "13",
+        "categoriaId": "2",
+        "titulo": "Das antiga",
+        "url": "https://www.youtube.com/watch?v=VqJT3YdFuQc"
+      },
+      {
+        "id": "14",
+        "categoriaId": "2",
+        "titulo": "Alex tem bom gosto",
+        "url": "https://www.youtube.com/watch?v=Tx9zMFodNtA&feature=youtu.be"
+      },
+      {
+        "id": "15",
+        "categoriaId": "2",
+        "titulo": "Salve pro bigodinho e pro grupo do aterrro",
+        "url": "https://www.youtube.com/watch?v=syqJAgTQdlU"
+      },
+      {
+        "id": "16",
+        "categoriaId": "2",
+        "titulo": "Sonzera do amigo do Iago",
+        "url": "https://www.youtube.com/watch?v=dkmSjjZXXRo&list=RDAMVMdkmSjjZXXRo"
+      },
+      {
+        "id": "17",
+        "categoriaId": "2",
+        "titulo": "Musica do João Patricio",
+        "url": "https://www.youtube.com/watch?v=s1tAYmMjLdY"
+      },
+      {
+        "id": "18",
+        "categoriaId": "3",
+        "titulo": "Mr. Robot Season 1 - Trailer",
+        "url": "https://www.youtube.com/watch?v=xIBiJ_SzJTA"
+      },
+      {
+        "id": "19",
+        "categoriaId": "3",
+        "titulo": "THE WITCHER | TRAILER PRINCIPAL | NETFLIX",
+        "url": "https://www.youtube.com/watch?v=tjujvMkqWe4"
+      },
+      {
+        "id": "20",
+        "categoriaId": "3",
+        "titulo": "The Umbrella Academy - Temporada 2 | Trailer oficial | Netflix",
+        "url": "https://www.youtube.com/watch?v=5W3KwQsOTuo"
+      },
+      {
+        "id": "21",
+        "categoriaId": "3",
+        "titulo": "How I Met Your Mother",
+        "url": "https://www.youtube.com/watch?v=aJtVL2_fA5w"
+      },
+      {
+        "id": "22",
+        "categoriaId": "3",
+        "titulo": "The Society",
+        "url":"https://www.youtube.com/watch?v=lSj77j1Dnxg"
+      },
+      {
+        "id": "23",
+        "categoriaId": "3",
+        "titulo": "Breaking Bad",
+        "url": "https://www.youtube.com/watch?v=ceqOTZnhgY8"
+      },
+      {
+        "id": "24",
+        "categoriaId": "4",
+        "titulo": "Interestellar",
+        "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      },
+      {
+        "id": "25",
+        "categoriaId": "4",
+        "titulo": "The Godfather",
+        "url": "https://www.youtube.com/watch?v=sY1S34973zA"
+      },
+      {
+        "id": "26",
+        "categoriaId": "4",
+        "titulo": "A Chegada",
+        "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      },
+      {
+        "id": "27",
+        "categoriaId": "4",
+        "titulo": "Star Wars: The Force Awakens Trailer (Official)",
+        "url": "https://www.youtube.com/watch?v=sGbxmsDFVnE"
+      },
+      {
+        "id": "28",
+        "categoriaId": "5",
+        "titulo": "Cyberpunk 2077 – Trailer E3 2018 Oficial",
+        "url": "https://www.youtube.com/watch?v=8X2kIfS6fb8"
+      },
+      {
+        "id": "29",
+        "categoriaId": "5",
+        "titulo": "The Witcher 3: Wild Hunt - Killing Monsters Cinematic Trailer",
+        "url": "https://www.youtube.com/watch?v=c0i88t0Kacs&t=1s"
+      },
+      {
+        "id": "30",
+        "categoriaId": "5",
+        "titulo": "God of War 4",
+        "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      },
+      {
+        "id": "31",
+        "categoriaId": "5",
+        "titulo": "The Elder Scrolls V: Skyrim - Official Trailer",
+        "url": "https://www.youtube.com/watch?v=JSRtYpNRoN0"
+      },
+      {
+        "id": "32",
+        "categoriaId": "5",
+        "titulo": "Valorant",
+        "url": "https://www.youtube.com/watch?v=g8amyzDHOKw"
+      },
+      {
+        "id": "33",
+        "categoriaId": "6",
+        "titulo": "Como estudar melhor?",
+        "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+      },
+      {
+        "id": "34",
+        "categoriaId": "6",
+        "titulo": "Faculdade",
+        "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+      },
+      {
+        "id": "35",
+        "categoriaId": "6",
+        "titulo": "Frameworks",
+        "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+      },
+      {
+        "id": "36",
+        "categoriaId": "6",
+        "titulo": "A mágica do Aprendizado",
+        "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+      },
+      {
+        "id": "37",
+        "categoriaId": "6",
+        "titulo": "Como aprender a programar?",
+        "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+      }
     ]
-}
+  }
